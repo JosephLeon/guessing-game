@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLv-et-M6r">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLv-et-M6r">
                                 <rect key="frame" x="208" y="177" width="200" height="100"/>
                                 <color key="backgroundColor" red="0.34602985965069455" green="0.7599547472134538" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -45,12 +45,16 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aLv-et-M6r" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="113" id="kHA-RL-Ffc"/>
+                            <constraint firstAttribute="centerX" secondItem="aLv-et-M6r" secondAttribute="centerX" constant="-8" id="w33-l1-zqT"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="7rz-5J-t20"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1252" y="340"/>
+            <point key="canvasLocation" x="446" y="406"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gr4-8d-sMv">
