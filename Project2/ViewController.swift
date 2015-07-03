@@ -46,6 +46,9 @@ class ViewController: UIViewController {
         correctAnswer = Int(arc4random_uniform(3))
         title = countries[correctAnswer].uppercaseString
     }
+    
+    @IBAction func buttonTapped(sender: UIButton) {
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
