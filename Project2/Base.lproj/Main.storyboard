@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLv-et-M6r">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLv-et-M6r">
                                 <rect key="frame" x="200" y="118" width="200" height="100"/>
                                 <color key="backgroundColor" red="0.34602985965069455" green="0.7599547472134538" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" image="us">
@@ -24,7 +24,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4iJ-VD-Hx7">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4iJ-VD-Hx7">
                                 <rect key="frame" x="200" y="416" width="200" height="100"/>
                                 <color key="backgroundColor" red="0.3460298597" green="0.7599547472" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" image="us">
@@ -32,7 +32,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J7S-YN-Eh0">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J7S-YN-Eh0">
                                 <rect key="frame" x="200" y="267" width="200" height="100"/>
                                 <color key="backgroundColor" red="0.3460298597" green="0.7599547472" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" image="us">
@@ -42,6 +42,14 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4iJ-VD-Hx7" firstAttribute="top" secondItem="J7S-YN-Eh0" secondAttribute="bottom" constant="49" id="0LV-cF-n7r"/>
+                            <constraint firstItem="J7S-YN-Eh0" firstAttribute="centerX" secondItem="4iJ-VD-Hx7" secondAttribute="centerX" id="MGl-7R-6Sm"/>
+                            <constraint firstItem="aLv-et-M6r" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="54" id="R6t-ye-UMU"/>
+                            <constraint firstItem="J7S-YN-Eh0" firstAttribute="centerX" secondItem="aLv-et-M6r" secondAttribute="centerX" id="RCi-DS-nBa"/>
+                            <constraint firstItem="J7S-YN-Eh0" firstAttribute="top" secondItem="aLv-et-M6r" secondAttribute="bottom" constant="49" id="gdN-Nr-0OO"/>
+                            <constraint firstAttribute="centerX" secondItem="aLv-et-M6r" secondAttribute="centerX" id="x1w-SG-mav"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="7rz-5J-t20"/>
                     <connections>
