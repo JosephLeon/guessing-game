@@ -27,7 +27,7 @@
                                     <action selector="buttonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="57V-W6-5Yl"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4iJ-VD-Hx7">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4iJ-VD-Hx7">
                                 <rect key="frame" x="200" y="416" width="200" height="100"/>
                                 <color key="backgroundColor" red="0.3460298597" green="0.7599547472" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" image="us">
@@ -38,7 +38,7 @@
                                     <action selector="buttonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="hXs-Dd-9Ta"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J7S-YN-Eh0">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J7S-YN-Eh0">
                                 <rect key="frame" x="200" y="267" width="200" height="100"/>
                                 <color key="backgroundColor" red="0.3460298597" green="0.7599547472" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" image="us">
